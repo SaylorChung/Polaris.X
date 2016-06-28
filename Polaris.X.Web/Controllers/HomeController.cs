@@ -53,17 +53,6 @@ namespace Polaris.X.Web.Controllers
                     ParentID =new Guid("9E50573A-55B1-4416-A28C-84851297144C"),
                     Icon="",
                     Level=3,
-                    IsLeaf=false,
-                    Seq=1,
-                    Href="#",
-                    Status=true
-                },
-                 new Menu {
-                    ID=new Guid("6A83DF99-1D85-40C6-AA0E-8A3AAB818EB4"),
-                    Name = "授权页面",
-                    ParentID =new Guid("529AE273-850E-E511-B477-D89D6724AE57"),
-                    Icon="",
-                    Level=4,
                     IsLeaf=true,
                     Seq=1,
                     Href="Role/Index",
